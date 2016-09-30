@@ -1,4 +1,4 @@
 hello world I am Yumi.
 
-Hello Pal :)
+Hello Pol :)
 
