@@ -58,7 +58,7 @@ plot(UKDriverDeaths, ylab = 'Number of Death')
 
 
 # Others
-We also make the following plots by using some datasets.
+The followings are plots by using some datasets in R
 ```{r,echo=FALSE}
 plot(UKDriverDeaths)
 plot(USArrests)
