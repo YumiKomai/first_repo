@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "README\n\nThis first pair assignment has been done by Yumi Komai and Pol Santaló. \nThe contribution of every student it has been equal and it can be described as follows: \nFirst of all, we created a Repository in our desktop through the program GitHub. \nAt the same time, we made each other contributors so we could share and edit the documents\nthat we posted in our Repository folder and in GitHub. In order to create the R source code\nfiles document that access at least two data sets, we created a Markdown document where we\nentered the the code 'plot' plus the name of the dates sets that we were interested to show.\nThen we covert it in a HTML document and we shared it in our repository. \nWe also posted it in our GitHub online account through the GitHub program in our computer\nin order to have it there posted and make some changes online if needed. The pair that \nhelped us to finish with the last point of the assignment are Bomi and Takuma. \nThey made a pull request and our document was minutely discussed and merged. \nFinally, we wrote this highly descriptive README.",
+    "created" : 1475775743855.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "4275140427",
+    "id" : "1133B7D5",
+    "lastKnownWriteTime" : 1475776018,
+    "last_content_update" : 1475776018,
+    "path" : "~/Desktop/first_repo/README.md",
+    "project_path" : "README.md",
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 2,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "markdown"
+}
