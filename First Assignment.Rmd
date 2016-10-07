@@ -14,6 +14,7 @@ This first pair assignment has been done by Yumi Komai and Pol Santaló. The con
 
 We also posted it in our GitHub online account through the GitHub program in our computer in order to have it there posted and make some changes online if needed. The pair that helped us to finish with the last point of the assignment are Bomi and Takuma. They made a pull request and our document was minutely discussed and merged.
 
+
 # Accidental Deaths in the US 1973–1978
 This is a time series giving the monthly totals of accidental deaths in the USA. According to the plot, the number of death was at the maximum on Jul in every year.
 
@@ -41,6 +42,7 @@ plot(USAccDeaths, ylab = 'Number of Death')
 hist(USAccDeaths, main = 'Accidental Deaths in the US 1973–1978', xlab = 'number of death')
 ```
 
+
 # Road Casualties in Great Britain 1969–84
 UKDriverDeaths is a time series giving the monthly totals of car drivers in Great Britain killed or seriously injured Jan 1969 to Dec 1984.Not likely to USAccDeaths, the number of Death recorded maximum  on November or December.
 
@@ -49,10 +51,11 @@ UKDriverDeaths is a time series giving the monthly totals of car drivers in Grea
 ```{r,echo=FALSE}
 show(UKDriverDeaths)
 ```
-## Plot and Histogram
+* Plot
 ```{r,echo=FALSE}
 plot(UKDriverDeaths, ylab = 'Number of Death')
 ```
+
 
 # Others
 We also make the following plots by using some datasets.
