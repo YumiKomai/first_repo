@@ -1,0 +1,48 @@
+---
+title: "first_repo"
+output:
+  pdf_document: default
+  html_document: default
+---
+
+```{r}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+Descrive the purpose of this report or someting....
+
+
+## Variation
+*Chart
+```{r USAccDeaths,echo=FALSE}
+show(USAccDeaths)
+```
+*Range
+```{r USAccDeaths,echo=FALSE}
+range(USAccDeaths)
+```
+*Quartiles
+```{r USAccDeaths,echo=FALSE}
+summary(USAccDeaths)
+```
+
+*Boxplots
+```{r echo=FALSE}
+boxplot(USAccDeaths, main ='Number of Death')
+```
+
+
+## Plot and Histogram
+According to the plot, the number of death was maxumum on Jul in every year.
+
+```{r USAccDeath,echo=FALSE}
+plot(USAccDeaths, ylab = 'Number of Death')
+hist(USAccDeaths, main = 'Accidental Deaths in the US 1973–1978', xlab = 'number of death')
+```
+
+
+
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
