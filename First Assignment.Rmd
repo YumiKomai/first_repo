@@ -1,23 +1,53 @@
 ---
 title: "First Assignment"
-output: html_document
+output:
+  html_document: default
+  pdf_document: default
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## First Assignment
+# First Assignment
 
-This first pair assignment has been done by Yumi Komai and Pol Santaló. The contribution of every student it has been equal and it can be described as follows: First of all, we created a Repository in our desktop through the program GitHub. At the same time, we made each other contributors so we could share and edit the documents that we posted in our Repository folder and in GitHub. In order to create the R source code files document that access at least two data sets, we created a Markdown document where we entered the the code 'plot' plus the name of the dates sets that we were interested to show. Then we covert it in a HTML document and we shared it in our repository. We also posted it in our GitHub online account through the GitHub program in our computer in order to have it there posted and make some changes online if needed. The pair that helped us to finish with the last point of the assignment are Bomi and Takuma. They made a pull request and our document was minutely discussed and merged. .
+This first pair assignment has been done by Yumi Komai and Pol Santaló. The contribution of every student it has been equal and it can be described as follows: First of all, we created a Repository in our desktop through the program GitHub. At the same time, we made each other contributors so we could share and edit the documents that we posted in our Repository folder and in GitHub. In order to create the R source code files document that access at least two data sets, we created a Markdown document where we entered the the code 'plot' plus the name of the dates sets that we were interested to show. Then we covert it in a HTML document and we shared it in our repository. 
 
+We also posted it in our GitHub online account through the GitHub program in our computer in order to have it there posted and make some changes online if needed. The pair that helped us to finish with the last point of the assignment are Bomi and Takuma. They made a pull request and our document was minutely discussed and merged.
 
-```{r cars}
-plot(USAccDeaths)
+# Accidental Deaths in the US 1973–1978
+This is a time series giving the monthly totals of accidental deaths in the USA. According to the plot, the number of death was maxumum on Jul in every year.
+
+## Variation
+*Chart
+```{r USAccDeaths,echo=FALSE}
+show(USAccDeaths)
+```
+*Range
+```{r USAccDeaths,echo=FALSE}
+range(USAccDeaths)
+```
+*Quartiles
+```{r USAccDeaths,echo=FALSE}
+summary(USAccDeaths)
+```
+*Boxplots
+```{r echo=FALSE}
+boxplot(USAccDeaths, main ='Number of Death')
+```
+
+## Plot and Histogram
+```{r USAccDeath,echo=FALSE}
+plot(USAccDeaths, ylab = 'Number of Death')
+hist(USAccDeaths, main = 'Accidental Deaths in the US 1973–1978', xlab = 'number of death')
+```
+
+## Others
+We also make the following plots by using some datas
+```{r,echo=FALSE}
 plot(UKDriverDeaths)
 plot(USArrests)
 plot(UKgas)
-
 plot(UScitiesD)
 plot(USJudgeRatings)
 ```
