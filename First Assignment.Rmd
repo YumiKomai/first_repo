@@ -16,6 +16,10 @@ This first pair assignment has been done by Yumi Komai and Pol Santaló. The con
 plot(USAccDeaths)
 plot(UKDriverDeaths)
 plot(USArrests)
+plot(UKgas)
+
+plot(UScitiesD)
+plot(USJudgeRatings)
 ```
 
 
