@@ -1,9 +1,9 @@
 ---
 title: "First Assignment"
 output:
-  word_document: default
-  pdf_document: default
-  html_document: default
+  pdf_document:
+  html_document:
+  word_document:
 ---
 
 ```{r setup, include=FALSE}
